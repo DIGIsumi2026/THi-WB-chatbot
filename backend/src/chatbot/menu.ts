@@ -1,4 +1,4 @@
-export const MAIN_MENU = `👋 Welcome to *THi Tech Showroom*!
+export const MAIN_MENU = `👋 Welcome to *THi- Tech Without Limits*!
 
 How can we help you?
 
