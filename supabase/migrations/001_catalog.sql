@@ -73,5 +73,3 @@ AS $$
 $$;
 REVOKE ALL ON FUNCTION public.search_catalog(text,integer,integer) FROM PUBLIC, anon, authenticated;
 GRANT EXECUTE ON FUNCTION public.search_catalog(text,integer,integer) TO service_role;
-
--- After import check: SELECT count(*) FROM public.products;  -- expect 86 on a new project
