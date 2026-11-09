@@ -1,10 +1,12 @@
-# THi Admin Dashboard — Phase 4
+# Admin Dashboard — Planned Phase 3
 
-This folder is reserved for a React + Vite + TypeScript admin dashboard.
+This stage adds Supabase product lookup to the existing Baileys chatbot. The React admin dashboard is not implemented here.
 
-Do not expose Baileys authentication credentials to the browser.
-The dashboard will eventually connect to protected backend endpoints and
-Supabase Auth, with roles for admin and sales staff.
+The next release will include:
+- Product management: prices, availability, photos and staff verification
+- Customer inbox and safe human takeover
+- Purchase inquiry and quotation approval
+- Showroom collection confirmation (no delivery)
+- Secure staff login, audit trail and notification workflows
 
-Planned pages: Overview, Live Inbox, Products, Sales Inquiries, Quotes,
-Orders (showroom collection only), Support, Bot Messages, Settings.
+Never place the backend service-role key or Baileys QR session credentials inside the browser.

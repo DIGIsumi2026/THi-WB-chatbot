@@ -11,14 +11,18 @@
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
     "check": "tsc --noEmit -p tsconfig.json",
-    "test": "tsx --test src/chatbot/router.test.ts"
+    "test": "node --import tsx --test src/chatbot/query-parser.test.ts src/products/product-service.test.ts",
+    "import:catalog": "tsx src/scripts/import-catalog.ts",
+    "check:seed": "tsx src/scripts/check-seed.ts",
+    "upload:images": "tsx src/scripts/upload-images.ts"
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "7.0.0-rc14",
     "dotenv": "^16.6.1",
     "pino": "^9.9.5",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode-terminal": "^0.12.0",
+    "@supabase/supabase-js": "^2.58.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.0",

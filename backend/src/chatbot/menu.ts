@@ -1,37 +1,22 @@
-export const MAIN_MENU = `👋 Welcome to *THi- Tech Without Limits*!
+export const MAIN_MENU = `👋 Welcome to *THi — Tech Without Limits*!
 
-How can we help you?
+Tell us what you're looking for. You can type naturally—no menu numbers required.
 
-1. 🛍️ Browse Products
-2. 🔎 Search Product / Model
-3. 💰 Prices & Availability
-4. 🛒 Purchase Inquiry
-5. 📦 Order Status
-6. 🛠️ Warranty & Support
-7. 📍 Showroom Details
-8. 👨‍💼 Talk to Sales Team
+🔊 Bluetooth speakers
+📺 Smart TVs (e.g. 43 inch TV)
+🎮 Gaming mice and accessories
+🍳 Air fryers and kitchen appliances
+🎧 Headphones and phone accessories
 
-🏬 *Showroom collection only* (no delivery service).
+You can also type:
+• *D220* — exact model details
+• *price BL59* — price and availability inquiry
+• *showroom* — location and contact
+• *support* — warranty and technical support
+• *agent* — speak to our sales team
+• *menu* — display this help
 
-Reply with a number, or type a model such as *D220* or *ST-9696*.
-Type *MENU* to return here.`
-
-export const CATEGORIES = [
-  'Televisions & Home Entertainment',
-  'Beverage and Coffee Station',
-  'Kitchen Cookware & Food Prep',
-  'Breakfast & Snack Makers',
-  'Cooling Fans',
-  'Home Maintenance & Garment Care',
-  'Personal Care',
-  'Computer & Game Accessories',
-  'Personal Entertainment & Phone Accessories'
-]
-
-export const CATEGORY_MENU =
-  `🛍️ *Browse THi Categories*\n\n` +
-  CATEGORIES.map((category, index) => `${index + 1}. ${category}`).join('\n') +
-  '\n\nReply with a category number or type *MENU*.'
+🏬 *Showroom collection only.* We don't offer delivery.`
 
 export const SHOWROOM_INFO = `📍 *THi Flagship Showroom*
 No 445, Sirimavo Bandaranike Mawatha,
@@ -40,4 +25,4 @@ Colombo 14.
 📞 +94 70 709 0909
 📧 info@thi.lk
 
-🏬 Purchase collection is at the showroom. Delivery is not offered.`
+🏬 Showroom collection only. No delivery service.`
