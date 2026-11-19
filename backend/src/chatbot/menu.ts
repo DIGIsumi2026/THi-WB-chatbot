@@ -3,7 +3,7 @@ export const MAIN_MENU = `👋 Welcome to *THi — Tech Without Limits*!
 Tell us what you're looking for. You can type naturally—no menu numbers required.
 
 🔊 Bluetooth speakers
-📺 Smart TVs (e.g. 43 inch TV)
+📺 Smart TVs
 🎮 Gaming mice and accessories
 🍳 Air fryers and kitchen appliances
 🎧 Headphones and phone accessories
